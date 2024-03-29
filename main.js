@@ -44,5 +44,10 @@ for (var i = 0; i < reveals.length; i++) {
       }
     }
 }
+
+ document.getElementById('open').onclick = function() {
+    window.location.href = 'https://maps.app.goo.gl/5j1pEULfBzVnKxzt7';
+  
+}
   
 window.addEventListener("scroll", reveal);
